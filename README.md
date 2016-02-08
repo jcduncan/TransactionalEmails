@@ -1,3 +1,8 @@
+#Current Hiccups
+- Still unsure how to send mart emails without giving financial information. I may call them to get their help. 
+- Others
+
+
 #What are Transactional Emails?
 Any email sent to one person as a result of an action taken by the user - including automated notifications like welcome emails, shipping notices, order confirmations, password reminders, purchase reciepts, etc - basically anthing that isn't a bulk blast. The emails provide feedback, making sure users know that transactions have been processed.
 
@@ -10,8 +15,12 @@ The main idea is the adage, "you're only as strong as your weakest link," so if 
 - Can the logo be included in the email? 
 
 #Benefits of Campaign Monitor
-- Options: smart email - the content is defined inside Campaign Monitor and is triggered via your applicatoin by supplying recipients and email variables to merge into the content - or classic email - we supply the entire message content at the time of sending.
-- Two
+- Options
+	- smart email: the content is defined inside Campaign Monitor and is triggered via your applicatoin by supplying recipients and email variables to merge into the content.  
+	- classic email: we supply the entire message content at the time of sending.
+- There's support for Liquid Templating 
+	- Liquid is an [open-source language](https://docs.shopify.com/themes/liquid-documentation/basics) created by Shopify to enable dynamic content. It is supported in our smart transactional email when you import your own email design, allowing you to create invoice item lists, reformat text, show content based on certain conditions and more.
+	- For a quick-start guide on Liquid's syntax and capabilities, we recommend [Liquid for designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).
 
 #Cons of Campaign Monitor
 - All [/transactional endpoints support only JSON](https://www.campaignmonitor.com/api/transactional/) and are subject to [rate limiting](https://www.campaignmonitor.com/api/getting-started/#rate_limiting)
