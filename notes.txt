@@ -1,0 +1,3 @@
+Questions for Brett:
+
+Is our marketing team using CM's smart email builder? If so, we may be able just include it in the Email template, instead of trying to attach it.

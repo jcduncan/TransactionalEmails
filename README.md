@@ -1,7 +1,7 @@
 #Current Hiccups
 - Still unsure how to send mart emails without giving financial information. I may call them to get their help. 
-- Others
-
+	- Their site says that Transactional Email is included in a monthly plan, even though they also say "you can access all of our features without spending a cent. You ony pay once you start sending campaigns." Clearly I'm not understanding something, so I will definitely be giving them a call.
+- The [link](http://www.campmon.com/yoda/helpcms/Topic?id=1265#attachments) they gave for understanding attachments for the smart emails isn't working. I'll keep searching for alternative documentation.
 
 #What are Transactional Emails?
 Any email sent to one person as a result of an action taken by the user - including automated notifications like welcome emails, shipping notices, order confirmations, password reminders, purchase reciepts, etc - basically anthing that isn't a bulk blast. The emails provide feedback, making sure users know that transactions have been processed.
@@ -12,7 +12,8 @@ The main idea is the adage, "you're only as strong as your weakest link," so if 
 #Basic Requirements
 - Can we attach an email through given URL?
 - Can we send all monetary values? How flexible is it?
-- Can the logo be included in the email? 
+- Can the logo be included in the email?
+	- It will be the logos of the actual photographers.
 
 #Benefits of Campaign Monitor
 - Options
